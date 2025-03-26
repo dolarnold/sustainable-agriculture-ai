@@ -29,17 +29,20 @@ Data Pipeline
 Exploration:
 
 bash
-Copy
+
 jupyter notebook notebooks/01_data_exploration.ipynb
 Cleaning:
 
 bash
 Copy
 python src/data_cleaning.py
+
 🌟 Key Analyses
 Notebook	Description	Status
 01_Exploration	Initial EDA	✅ Done
 02_Cleaning	Data preprocessing	🔄 In Progress
+
+
 🤝 Contribution Guide
 Create a feature branch:
 
@@ -70,7 +73,7 @@ env/
 .ipynb_checkpoints/
 requirements.txt
 
-Copy
+
 pandas>=1.5.0
 scikit-learn>=1.0.0
 jupyterlab>=3.0
@@ -78,7 +81,7 @@ pyarrow>=8.0.0  # For Parquet support
 docs/CODING_STANDARDS.md
 
 markdown
-Copy
+
 # Coding Standards
 - Notebooks: Use Markdown headers for sections
 - Python: PEP-8 compliance
