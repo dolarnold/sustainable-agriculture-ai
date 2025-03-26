@@ -27,11 +27,16 @@ sustainable-agriculture-ai/
 └── README.md
 Data Pipeline
 Exploration:
+jupyter notebook notebooks/data_exploration.ipynb
 
-bash
 
-jupyter notebook notebooks/01_data_exploration.ipynb
 Cleaning:
+
+
+jupyter notebook notebooksdata_exploration.ipynb
+Cleaning:
+
+Jupytnotebook/data_cleaning.py
 
 bash
 Copy
@@ -49,7 +54,7 @@ Create a feature branch:
 bash
 Copy
 git checkout -b feature/your-feature
-Follow our coding standards
+
 
 Open a Pull Request targeting dev branch
 
@@ -65,13 +70,6 @@ Copy
 data/raw/*.csv
 !data/raw/.gitkeep
 
-# Environments
-.venv/
-env/
-
-# Jupyter
-.ipynb_checkpoints/
-requirements.txt
 
 
 pandas>=1.5.0
